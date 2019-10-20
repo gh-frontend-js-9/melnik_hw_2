@@ -1,0 +1,251 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+header{
+  height: 78px;
+  width: 100%;
+  background-color: #f6f9f9;
+}
+h2{
+  color: #2d3950;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.header{
+  height: 100%;
+}
+.main{
+  background: url("img/BG.jpg");
+  background-size: 100%;
+  height: 700px;
+  text-align: center;
+  padding-top: 220px;
+  color: white;
+}
+.main h1{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 120px;
+}
+.main hr{
+  border-color: #15a4fa;
+  width: 600px;
+  margin-bottom: 50px;
+}
+.main span{
+  font-size: 20px;
+}
+.main button {
+  margin-top: 50px;
+  width: 170px;
+  border: 1px #15a4fa solid;
+  border-radius: 10px;
+  background: none;
+  font-size: 18px;
+  color: white;
+  height: 55px;
+}
+.simple{
+  background-color: #f6f9f9;
+  padding: 40px 0;
+}
+.simple p{
+  text-align: center;
+  color:#999999;
+  line-height: 1.5;
+}
+.block3{
+  padding: 40px 0;
+  text-align: center;
+}
+.block3 table{
+  width: 100%;
+}
+.block3 table span{
+  color: #2d3950;
+  font-size: 22px;
+  width: 100%;
+  margin: 10px 0;
+  float: left;
+}
+.block3 table p{
+  color: #999;
+  font-size: 15px;
+}
+.block3 table td{
+  width: 33%;
+  padding: 20px;
+}
+.photos{
+  background-color: #f6f9f9;
+  padding: 40px 0;
+
+}
+.photos p{
+  margin-top: 30px;
+  color: #909090;
+  font-size: 15px;
+  text-align: center;
+}
+.hover{
+  width: 360px;
+  height: 260px;
+}
+.h1{
+  background-image: url("img/p1.jpg");
+}
+.h2{
+  background-image: url("img/p2.jpg");
+}
+.h3{
+  background-image: url("img/p3.jpg");
+}
+.h4{
+  background-image: url("img/p4.jpg");
+}
+.h5{
+  background-image: url("img/p5.jpg");
+}
+.h6{
+  background-image: url("img/p6.jpg");
+}
+.hovered{
+  padding-top: 40px;
+  cursor: pointer;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(21, 164, 250, .9);
+}
+.hover:hover .hovered{
+  display: block;
+}
+.hover table{
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.hover table td{
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px white solid;
+  color: white;
+  background: none;
+}
+.hover table td:hover{
+  background: #15a4fa;
+  cursor: pointer;
+}
+.hover table img{
+  color: white;
+  width: 25px;
+  margin-left: 7px;
+}
+.form{
+  background: url("img/BG2.jpg") rgba(45, 57, 80, .9);
+  background-size: 100%;
+  /* height: 700px; */
+  padding: 50px 0;
+}
+.form h2{
+  color: white;
+  font-size: 41px;
+  font-weight: 100;
+}
+.form p{
+  color: #999;
+  font-size: 15px;
+  text-align: center;
+}
+form{
+  width: 550px;
+  margin: 50px auto;
+}
+input.text, textarea{
+  background: none;
+  border: 1px white solid;
+  width: 518px;
+  margin-bottom: 20px;
+  color: #999;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+input.text{
+  height: 60px;
+}
+form textarea{
+  padding-top: 20px;
+}
+form label{
+  color: white;
+  font-size: 15px;
+}
+form button{
+  width: 140px;
+  height: 42px;
+  border: 1px #15a4fa solid;
+  color:white;
+  font-size: 18px;
+  background: none;
+  border-radius: 5px;
+  right: 0px;
+  float: right;
+}
+button:hover{
+  background-color: #15a4fa;
+  cursor: pointer;
+  transition: .2s;
+}
+footer{
+  background-color: white;
+  height: 90px;
+  width: 100%;
+}
+footer p{
+  color:#999;
+  font-size: 15px;
+  margin-top: 35px;
+  width: 50%;
+  float: left;
+}
+.blocks{
+  width: 180px;
+  float: right;
+  margin-top: 25px;
+}
+.block{
+  width: 40px;
+  height: 40px;
+  background-color: #15a4fa;
+  float: left;
+  margin-left: 5px;
+}
+.block img{
+  width: 40px;
+  height: 40px;
+}
+.block:hover{
+  transition: .2s;
+  cursor: pointer;
+}
+.b1:hover{
+  background-color: #3b5998;
+}
+.b2:hover{
+  background-color: #55acee;
+}
+.b3:hover{
+  background-color: #dd4b39;
+}
+.b4:hover{
+  background-color: #0976b4;
+}
